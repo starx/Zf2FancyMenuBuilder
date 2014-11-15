@@ -1,0 +1,28 @@
+{
+    "name": "starx/zf2fancymenubuilder",
+    "description": "Menu Builder for https://github.com/starx/jQuery-Fancy-Menu",
+    "type": "Library",
+	"license": "GPL V2",
+    "keywords": [
+        "zf2",
+		"starx",
+        "jquery fancy menu"
+    ],
+    "authors": [
+        {
+            "name": "Starx",
+            "email": "mail@mrnepal.com",
+            "homepage": "http://mrnepal.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-0": {
+            "Starx\\Zf2FancyMenuBuilder": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
